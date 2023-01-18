@@ -1,0 +1,18 @@
+@import "button";
+@import "variabili";
+body {
+  background-color: pink;
+  &:hover {
+    background-color: greenyellow;
+  }
+}
+main {
+  padding: 50px;
+  img {
+    width: 200px;
+    transform: rotate(60deg);
+    &:hover {
+      transform: rotate(-60deg);
+    }
+  }
+}

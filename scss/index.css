@@ -1,0 +1,22 @@
+.button {
+  background-color: green;
+  color: black;
+}
+
+body {
+  background-color: pink;
+}
+body:hover {
+  background-color: greenyellow;
+}
+
+main {
+  padding: 50px;
+}
+main img {
+  width: 200px;
+  transform: rotate(60deg);
+}
+main img:hover {
+  transform: rotate(-60deg);
+} /*# sourceMappingURL=index.css.map */
